@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="guide-play">
+            <p id="p-1">Guide Play</p>
+            <p id="p-2">Press the "A" button or "the left arrow" to move left</p>
+            <p id="p-3">Press the "D" button or "the right arrow" to move right</p>
+            <p id="p-4">Press the "W" button or "the up arrow" to move up</p>
+            <p id="p-5">Press the "S" button or "the down arrow" to move down</p>
+            <button id="btn-1" onclick="btnPlayHidden()">Play</button>
+        </div>
+        <div id="retry">
+            <p id="p-score">Score: </p>
+            <p id="p-result-score">10</p>
+            <p id="text"></p>
+            <p id="score-best">Best Score : 10</p>
+            <p id="time"></p>
+            <button id="btnRetry" onclick="btnRetryHidden()">Retry</button>
+        </div>
+        <audio id="eatAudio">
+            <source src="./media/audio/Eat - Sao chép (mp3cut.net).wav">
+        </audio>
+        <audio id="mainAudio">
+            <source src="./media/audio/Main.wav">
+        </audio>
+        <audio id="loseAudio">
+            <source src="./media/audio/Lose.wav">
+        </audio>
+    </div>
+</body>
+
+</html>
+
+<script src="./assets/js/const.js"></script>
+<script src="./assets/js/screen.js"></script>
+<script src="./assets/js/index.js"></script>

@@ -1,0 +1,9 @@
+const SCREEN_SIZE = 700
+const UNIT = 35
+const color_body = "rgb(255, 161, 0)"
+const color_head = "rgb(43, 88, 235)"
+const background_color = "#181b35"
+let score = 0;
+let speed = 180;
+let bestscore = 0;
+var time = 0;
